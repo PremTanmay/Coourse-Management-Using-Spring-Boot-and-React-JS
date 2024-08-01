@@ -1,43 +1,70 @@
-# Coourse-Management-Using-Spring-Boot-and-React-JS
-# Course Management System
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The Course Management System is a web application built with **Spring Boot** and **ReactJS**. This application provides a user-friendly interface for managing courses, including creating, reading, updating, and deleting (CRUD) course records. It is designed to help educational institutions or organizations manage their course offerings efficiently.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **Create Courses**: Add new courses with details such as title, description, and more.
-- **Read Courses**: View a list of all courses, including detailed information for each course.
-- **Update Courses**: Modify existing course information.
-- **Delete Courses**: Remove courses from the system.
-- **Responsive UI**: A modern, responsive user interface built with ReactJS and Bootstrap.
-- **Toast Notifications**: Informative toast messages using React Toastify.
+### `npm start`
 
-## Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Backend**: Spring Boot
-  - Java 17
-  - Spring Boot 3.x
-  - Spring Data JPA
-  - Spring Web
-  - H2 Database (or any other database of your choice)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Frontend**: ReactJS
-  - React 18.3.1
-  - React Bootstrap 2.7.0
-  - Reactstrap 9.2.2
-  - Bootstrap 5.3.3
-  - React Toastify 10.0.5
-  - Axios 1.7.2
-  - @Popperjs/core 2.11.7
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- JDK 17 or later
-- Node.js and npm (Node Package Manager)
-- Maven (for building the Spring Boot application)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
